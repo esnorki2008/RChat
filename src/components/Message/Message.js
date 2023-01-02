@@ -4,7 +4,7 @@ function Message() {
         <div className="w-full my-2 flex justify-end">
             <div className="bg-stone-50 white  mx-2 rounded-md px-2 w-4/6  shadow-sm">
               <div className=" flex flex-col justify-start">
-                <p className="text-sm font-bold">
+                <p className=" mt-4 text-sm font-bold">
                   Instalacion
                 </p>
                 <div className="flex w-full">
