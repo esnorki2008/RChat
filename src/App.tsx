@@ -1,7 +1,7 @@
 import { useAppDispatch } from './app/hooks';
-import Chat from './features/chat/Chat';
 //import { Counter } from './features/counter/Counter';
 import {setSession} from './reducers/sessionSlice'
+import Menu from './views/Menu/Menu';
 
 
 
@@ -10,8 +10,8 @@ function App() {
   dispatch(setSession("hola"))
   //<Counter />
   return (
-    <div className="h-screen">
-      <Chat/>
+    <div >
+      <Menu/>
     </div>
   );
 }

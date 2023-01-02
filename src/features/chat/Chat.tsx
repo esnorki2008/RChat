@@ -4,12 +4,15 @@ import Message from "../message/Message";
 
 function Chat() {
   return (
-    <div className="bg-stone-50 shadow-xs h-full 
-        flex flex-col rounded-xl text-md 
-        justify-end">
-        <div className="bg-stone-200 shadow-sm py-2 px-4 h-full ">
-          <div className="flex flex-col items-end justify-end">
+    <div className="bg-zinc-700 shadow-xs h-full 
+        flex flex-col  text-md 
+        justify-end ">
+        <div className="bg-zinc-900 shadow-sm py-2 px-4 h-full h-100 overflow-y-scroll scrollbar:!w-1.5 scrollbar:!h-1.5 
+                scrollbar:bg-transparent scrollbar-track:!bg-cyan-900 scrollbar-thumb:!rounded scrollbar-thumb:!bg-cyan-50 scrollbar-track:!rounded
+                overflow-y-scroll bg-zinc-800 shadow border-zinc-900 border-r p-2 h-100">
+          <div className="flex flex-col items-end justify-end ">
             <Message/>
+            <Message/>  
             <Message/>  
           </div>
         </div>

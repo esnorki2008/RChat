@@ -1,9 +1,9 @@
 function Message() {
     return (
         <div className="w-full my-2 flex justify-end">
-            <div className="bg-stone-50 white  mx-2 rounded-md px-2 w-4/6  shadow-sm">
+            <div className="bg-zinc-50 text-zinc-900  mx-2 rounded-md px-2 w-4/6  shadow-sm">
               <div className=" flex flex-col justify-start">
-                <p className=" mt-4 text-sm font-bold">
+                <p className="mt-4 text-sm font-bold">
                   Instalacion
                 </p>
                 <div className="flex w-full">
@@ -17,7 +17,7 @@ function Message() {
                     officia deserunt mollit anim id est laborum
                   </p>                  
                 </div>
-                <div className="my-1 flex justify-end text-stone-400 text-xs" >
+                <div className="my-1 flex justify-end text-cyan-500 text-xs font-bold" >
                   <p>
                     14:35pm
                   </p>
